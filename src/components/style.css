@@ -1,0 +1,8 @@
+.details_item_img{
+    height: 300px;
+    width: 500px;
+}
+.details_item_img img {
+    height: 100%;
+    width: 100%;
+}

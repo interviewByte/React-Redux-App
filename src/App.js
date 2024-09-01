@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
     <Header />
       <Routes>
-          <Route path='/' element={<Cards />} />
-          <Route path='/cart' element={<CardDetails />} />
+        <Route path='/' element={<Cards />} />
+        <Route path="/cart/:id" element={<CardDetails/>} />
       </Routes>
       </BrowserRouter>
     </>
